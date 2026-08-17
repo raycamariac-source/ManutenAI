@@ -1,37 +1,68 @@
-ManutenAi
+# ManutenAi
 
-Sobre o projeto
+## Sobre o projeto
 
-O ManutenAi é um sistema simples de manutenção escolar, criado para facilitar o registro e o acompanhamento de problemas de infraestrutura dentro da escola.
+O *ManutenAi* é um sistema simples de manutenção escolar criado para facilitar o registro e o acompanhamento de problemas de infraestrutura dentro da escola.
 
-Problema
+## Problema
 
-Problemas como ventiladores quebrados, lâmpadas queimadas, torneiras com defeito, portas danificadas e cadeiras quebradas podem ocorrer no ambiente escolar. Quando esses problemas não são comunicados de forma organizada, pode ser mais difícil acompanhar sua resolução.
+Nas escolas, podem ocorrer problemas como:
 
-Solução proposta
+- Ventiladores quebrados;
+- Lâmpadas queimadas;
+- Torneiras com defeito;
+- Portas danificadas;
+- Cadeiras quebradas.
 
-O projeto propõe um sistema que permita registrar problemas de manutenção encontrados na escola e acompanhar a situação de cada problema até que ele seja resolvido.
+Quando esses problemas não são comunicados de forma organizada, pode ser difícil acompanhar se eles foram solucionados.
 
-Objetivo
+## Solução proposta
 
-Facilitar a comunicação de problemas de infraestrutura e ajudar a escola a acompanhar as solicitações de manutenção.
+O *ManutenAi* propõe uma forma simples e organizada de registrar problemas encontrados na escola e acompanhar a situação de cada solicitação.
 
-Público-alvo
+O sistema permitirá que o usuário:
 
-Alunos e funcionários da escola que possam identificar e registrar problemas de manutenção, além dos responsáveis pelo acompanhamento e resolução desses problemas.
+1. Registre o problema encontrado;
+2. Informe o local onde ele ocorreu;
+3. Descreva o problema;
+4. Visualize os problemas registrados;
+5. Acompanhe o status da solicitação;
+6. Marque o problema como *resolvido* quando ele for solucionado.
 
-Funcionalidades
+## Objetivo
 
-* Registrar um problema de manutenção;
-* Informar a descrição do problema;
-* Informar o local onde o problema foi encontrado;
-* Informar o tipo do problema;
-* Visualizar os problemas registrados;
-* Visualizar o status dos problemas;
-* Marcar um problema como resolvido.
+Facilitar a comunicação de problemas de infraestrutura e ajudar a escola a acompanhar as solicitações de manutenção de forma mais organizada.
 
-Escopo
+## Público-alvo
 
-O ManutenAi será desenvolvido como um sistema simples, concentrado no registro, visualização e acompanhamento de problemas de manutenção escolar.
+O sistema será destinado principalmente a:
 
-Nesta primeira versão, não fazem parte do projeto funcionalidades como login, chat, notificações, sistema financeiro, calendário, cadastro de funcionários ou mapa da escola.
+- *Alunos*;
+- *Funcionários da escola*;
+- *Responsáveis pela manutenção*.
+
+## Funcionalidades
+
+- [ ] Registrar um problema;
+- [ ] Informar o local do problema;
+- [ ] Descrever o problema;
+- [ ] Informar o tipo de problema;
+- [ ] Visualizar problemas registrados;
+- [ ] Consultar o status de cada problema;
+- [ ] Marcar um problema como resolvido.
+
+## Escopo
+
+O projeto será desenvolvido de forma simples, tendo como foco o *registro e acompanhamento de problemas de manutenção escolar*.
+
+### Fora do escopo
+
+Nesta primeira versão, não serão incluídos:
+
+- Sistema de login;
+- Chat;
+- Notificações;
+- Sistema financeiro;
+- Calendário;
+- Mapa da escola;
+- Cadastro de funcionários
