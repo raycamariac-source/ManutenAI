@@ -1,37 +1,37 @@
-OrganizaAí
+ManutenAi
 
 Sobre o projeto
 
-O OrganizaAí é um sistema simples de organização de atividades escolares, criado para ajudar estudantes a acompanhar seus compromissos e evitar o esquecimento de prazos.
+O ManutenAi é um sistema simples de manutenção escolar, criado para facilitar o registro e o acompanhamento de problemas de infraestrutura dentro da escola.
 
 Problema
 
-Muitos alunos esquecem trabalhos, provas e atividades escolares, principalmente quando precisam lidar com várias tarefas e diferentes prazos.
+Problemas como ventiladores quebrados, lâmpadas queimadas, torneiras com defeito, portas danificadas e cadeiras quebradas podem ocorrer no ambiente escolar. Quando esses problemas não são comunicados de forma organizada, pode ser mais difícil acompanhar sua resolução.
 
 Solução proposta
 
-O projeto propõe um sistema que permita ao estudante registrar e acompanhar suas atividades escolares em um único lugar.
+O projeto propõe um sistema que permita registrar problemas de manutenção encontrados na escola e acompanhar a situação de cada problema até que ele seja resolvido.
 
 Objetivo
 
-Ajudar estudantes a organizar suas atividades e acompanhar os prazos de entrega, facilitando o controle das tarefas escolares.
+Facilitar a comunicação de problemas de infraestrutura e ajudar a escola a acompanhar as solicitações de manutenção.
 
 Público-alvo
 
-Estudantes que precisam organizar suas atividades e compromissos escolares.
+Alunos e funcionários da escola que possam identificar e registrar problemas de manutenção, além dos responsáveis pelo acompanhamento e resolução desses problemas.
 
 Funcionalidades
 
-* Cadastrar uma atividade;
-* Informar o nome da atividade;
-* Informar a matéria;
-* Informar a data de entrega;
-* Visualizar as atividades cadastradas;
-* Organizar as atividades por data de entrega;
-* Marcar uma atividade como concluída.
+* Registrar um problema de manutenção;
+* Informar a descrição do problema;
+* Informar o local onde o problema foi encontrado;
+* Informar o tipo do problema;
+* Visualizar os problemas registrados;
+* Visualizar o status dos problemas;
+* Marcar um problema como resolvido.
 
 Escopo
 
-O OrganizaAí será desenvolvido como um sistema simples, concentrado no cadastro, visualização e conclusão de atividades escolares.
+O ManutenAi será desenvolvido como um sistema simples, concentrado no registro, visualização e acompanhamento de problemas de manutenção escolar.
 
-Nesta primeira versão, não fazem parte do projeto funcionalidades como login, sistema de notas, mensagens, notificações, calendário, aulas online ou comunicação com professores.
+Nesta primeira versão, não fazem parte do projeto funcionalidades como login, chat, notificações, sistema financeiro, calendário, cadastro de funcionários ou mapa da escola.
