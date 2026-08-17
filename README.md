@@ -54,15 +54,3 @@ O sistema será destinado principalmente a:
 ## Escopo
 
 O projeto será desenvolvido de forma simples, tendo como foco o *registro e acompanhamento de problemas de manutenção escolar*.
-
-### Fora do escopo
-
-Nesta primeira versão, não serão incluídos:
-
-- Sistema de login;
-- Chat;
-- Notificações;
-- Sistema financeiro;
-- Calendário;
-- Mapa da escola;
-- Cadastro de funcionários
