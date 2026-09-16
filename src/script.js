@@ -29,6 +29,7 @@ form.addEventListener("submit", function(event) {
         const status = novaLinha.querySelector(".status");
 
         status.textContent = "Resolvido";
+
         botaoResolver.remove();
     });
 
