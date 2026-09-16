@@ -13,6 +13,7 @@ form.addEventListener("submit", function(event) {
     novaLinha.innerHTML = `
         <td>${tipo}</td>
         <td>${local}</td>
+        <td>${descricao}</td>
         <td class="status">Pendente</td>
         <td>
             <button type="button" class="resolver">
