@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManutenAI</title>
 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>ManutenAI</h1>
+        <p>Sistema de registro e acompanhamento de problemas escolares</p>
+    </header>
+
+    <main>
+
+        <section class="registro">
+            <h2>Registrar problema</h2>
+
+            <form id="formProblema">
+
+                <label for="local">Local</label>
+                <input
+                    type="text"
+                    id="local"
+                    placeholder="Ex.: Sala 03"
+                    required
+                >
+
+                <label for="tipo">Tipo do problema</label>
+                <input
+                    type="text"
+                    id="tipo"
+                    placeholder="Ex.: Ventilador quebrado"
+                    required
+                >
+
+                <label for="descricao">Descrição</label>
+                <textarea
+                    id="descricao"
+                    placeholder="Descreva o problema"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Registrar problema
+                </button>
+
+            </form>
+        </section>
+
+
+        <section class="problemas">
+            <h2>Problemas registrados</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Problema</th>
+                        <th>Local</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="listaProblemas">
+
+                    <tr>
+                        <td>Ventilador quebrado</td>
+                        <td>Sala 03</td>
+                        <td>Pendente</td>
+                    </tr>
+
+                    <tr>
+                        <td>Torneira com defeito</td>
+                        <td>Banheiro</td>
+                        <td>Resolvido</td>
+                    </tr>
+
+                    <tr>
+                        <td>Lâmpada queimada</td>
+                        <td>Sala 01/02</td>
+                        <td>Pendente</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
