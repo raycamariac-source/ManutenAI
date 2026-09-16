@@ -13,10 +13,24 @@ form.addEventListener("submit", function(event) {
     novaLinha.innerHTML = `
         <td>${tipo}</td>
         <td>${local}</td>
-        <td>Pendente</td>
+        <td class="status">Pendente</td>
+        <td>
+            <button type="button" class="resolver">
+                Marcar como resolvido
+            </button>
+        </td>
     `;
 
     listaProblemas.appendChild(novaLinha);
+
+    const botaoResolver = novaLinha.querySelector(".resolver");
+
+    botaoResolver.addEventListener("click", function() {
+        const status = novaLinha.querySelector(".status");
+
+        status.textContent = "Resolvido";
+        botaoResolver.remove();
+    });
 
     form.reset();
 
