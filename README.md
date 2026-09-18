@@ -61,23 +61,14 @@ O sistema é destinado principalmente a:
 
 ## Estrutura do projeto
 
-```text
-ManutenAi/
-├── docs/
-│   ├── arquitetura.md
-│   ├── requisitos.md
-│   ├── testes.md
-│   ├── ManutenAi-Modelagem-Fluxo do Sistema.drawio.png
-│   └── Diagrama P II.drawio.png
-│
-├── src/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── index.html
-└── README.md
-```
+- `docs/arquitetura.md` — documentação da arquitetura.
+- `docs/requisitos.md` — requisitos do sistema.
+- `docs/testes.md` — documentação dos testes.
+- `docs/ManutenAi-Modelagem-Fluxo do Sistema.drawio.png` — modelagem do fluxo.
+- `docs/Diagrama P II.drawio.png` — diagrama do projeto.
+- `src/index.html` — estrutura da aplicação.
+- `src/style.css` — estilos da aplicação.
+- `src/script.js` — funcionalidades da aplicação.
 
 ## Como executar
 
@@ -85,13 +76,13 @@ O sistema pode ser acessado diretamente pelo GitHub Pages.
 
 Também é possível executar localmente:
 
-1. Baixe ou clone o repositório;
-2. Acesse a pasta `src`;
-3. Abra o arquivo `index.html` em um navegador;
-4. Preencha o formulário com o local, tipo e descrição do problema;
-5. Clique em **Registrar problema**;
-6. O problema será exibido na tabela com o status **Pendente**;
-7. Após a manutenção, clique em **Marcar como resolvido** para atualizar o status.
+1. Baixe ou clone o repositório.
+2. Acesse a pasta `src`.
+3. Abra o arquivo `index.html` em um navegador.
+4. Preencha o formulário com o local, tipo e descrição do problema.
+5. Clique em **Registrar problema**.
+6. O problema aparecerá na tabela com o status **Pendente**.
+7. Após a manutenção, clique em **Marcar como resolvido**.
 
 ## Testes e validação
 
@@ -103,7 +94,7 @@ Foram realizados testes das principais funcionalidades do sistema:
 - Atualização do status para **Resolvido**;
 - Cadastro de novos problemas após a atualização de status.
 
-Os resultados dos testes estão registrados no arquivo `docs/testes.md`.
+Os resultados dos testes estão registrados em `docs/testes.md`.
 
 ## Resultado final
 
@@ -112,3 +103,5 @@ O ManutenAi possui um protótipo funcional capaz de registrar problemas de infra
 ## Escopo
 
 O projeto foi desenvolvido de forma simples, tendo como foco o *registro e acompanhamento de problemas de manutenção escolar*.
+
+
