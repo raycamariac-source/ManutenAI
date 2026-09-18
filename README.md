@@ -77,7 +77,7 @@ ManutenAi/
 │
 ├── index.html
 └── README.md
-```markdown
+```
 ## Como executar
 
 O sistema pode ser acessado diretamente pelo GitHub Pages.
