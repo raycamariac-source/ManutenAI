@@ -77,3 +77,37 @@ ManutenAi/
 │
 ├── index.html
 └── README.md
+
+## Como executar
+
+O sistema pode ser acessado diretamente pelo GitHub Pages.
+
+Também é possível executar localmente:
+
+1. Baixe ou clone o repositório;
+2. Acesse a pasta `src`;
+3. Abra o arquivo `index.html` em um navegador;
+4. Preencha o formulário com o local, tipo e descrição do problema;
+5. Clique em **Registrar problema**;
+6. O problema será exibido na tabela com o status **Pendente**;
+7. Após a manutenção, clique em **Marcar como resolvido** para atualizar o status.
+
+## Testes e validação
+
+Foram realizados testes das principais funcionalidades do sistema:
+
+- Cadastro de problemas;
+- Exibição da descrição;
+- Exibição do local e tipo do problema;
+- Atualização do status para **Resolvido**;
+- Cadastro de novos problemas após a atualização de status.
+
+Os resultados dos testes estão registrados no arquivo `docs/testes.md`.
+
+## Resultado final
+
+O ManutenAi possui um protótipo funcional capaz de registrar problemas de infraestrutura escolar, exibir as informações cadastradas e atualizar o status dos problemas após a realização da manutenção.
+
+## Escopo
+
+O projeto foi desenvolvido de forma simples, tendo como foco o *registro e acompanhamento de problemas de manutenção escolar*.
